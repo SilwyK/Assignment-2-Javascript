@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Task 1
+            var firstName = "Moe", lastName = "Adam", age = "52";
+
+
+            //Task 2
+            var fisrtname = "Mike";
+            var lastname = "Douglas";
+            var fullname = fisrtname + ' ' + lastname;
+            alert(fullname);
+
+            //Task 3
+            var total = 0;
+            function addMe(x)
+            {
+                total = total + x;    
+            }
+            console.log("Current Value of variable total : " + total);
+            console.log("Adding Value 5 to variable total ");
+            addMe(5);
+            console.log("After adding value 5 to variable total : " + total);
+
+            console.log("Adding Value 7 to variable total ");
+            addMe(7);
+            console.log("After adding value 7 to variable total : " + total);
+
+            console.log("Adding Value 9 to variable total ");
+            addMe(9);
+            console.log("After adding value 9 to variable total : " + total);
+
+            //Task 4
+            function calculateCatAge(ageOfCatInHumanYears)
+            {
+                var ageOfCatInCatYears = 7 * ageOfCatInHumanYears; 
+                alert("Your cat is " + ageOfCatInCatYears + " years old in Cat Years!");
+            }
+            calculateCatAge(2);
+            calculateCatAge(4);
+            calculateCatAge(6);
+
+        
+        </script>
+    </body>
+</html>
